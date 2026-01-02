@@ -45,6 +45,29 @@ public class PhaseTwo {
         return secondLargest;
     }
 
+    /*
+ WHY HashSet is used here:
+
+ - Problem: Check if any element/character appears more than once.
+ - We do NOT care about how many times it appears,
+   only whether it appeared before.
+
+ - HashSet stores only UNIQUE elements.
+   If we try to add a duplicate, we can detect it immediately.
+
+ - HashSet is ideal when:
+      1. We only need existence (yes/no)
+      2. We want early exit on finding a duplicate
+      3. Order does not matter
+
+ - Pattern to remember:
+      - Use HashSet when the question involves:
+           "is there any duplicate?"
+           "have I seen this before?"
+           "unique elements"
+*/
+
+
     //3. Check if array contains dublicates
     //using hashset
 
