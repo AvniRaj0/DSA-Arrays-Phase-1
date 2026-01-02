@@ -1,45 +1,41 @@
-# DSA Practice – Arrays
+# DSA Practice – Java
 
-This repository documents my step-by-step learning of **Data Structures and Algorithms in Java**, with a focus on understanding patterns and clean implementation.
-
----
-
-## Phase 1: Array Fundamentals
-**Goal:** Become comfortable with basic array operations and input handling.
-
-### Topics Covered
-- Array traversal
-- Find maximum and minimum element
-- Sum of elements (accumulator pattern)
-- Count elements greater than X
-- Count even and odd numbers
-- Check if array is sorted
-- User input using `Scanner`
+This repository contains my step-by-step practice of Data Structures and Algorithms using Java.
+Each phase focuses on building strong fundamentals with clear logic and clean code.
 
 ---
 
-## Phase 2: Core Array Patterns
-**Goal:** Learn how to *think* while solving array problems.
-
-### Patterns Learned
-- Frequency counting using `HashMap`
-- Detecting duplicates using `HashSet`
-- Tracking multiple values (largest & second largest)
-- Early exit logic
-- Left rotation of array
-- Reversing array using two pointers
-- Handling edge cases and debugging index errors
+##Phase 1: Arrays – Basics
+Covered:
+- Array input and output
+- Finding min, max, and sum
+- Counting elements based on conditions
+- Checking if an array is sorted
+- Basic problem-solving patterns
 
 ---
 
-## Language & Tools
-- **Language:** Java  
-- **IDE:** IntelliJ IDEA  
-- **Version Control:** Git & GitHub  
+##Phase 2: Arrays – Core Patterns
+Covered:
+- Frequency counting
+- Duplicate detection (using HashSet)
+- Second largest element
+- Array rotation
+- Reversing arrays
+- Applying HashMap and HashSet where appropriate
 
 ---
 
-## Progress
-- ✅ Phase 1 completed
-- ✅ Phase 2 completed
-- ⏳ Phase 3 (Strings) – upcoming
+##Phase 3: Strings – Fundamentals
+Covered:
+- Character traversal
+- Vowel and consonant counting
+- String reversal
+- Palindrome checking
+- Character frequency using HashMap
+
+Each problem includes comments explaining **why** a particular data structure or approach was used,
+so future reference is easy.
+
+Language: **Java**  
+IDE: **IntelliJ IDEA**
